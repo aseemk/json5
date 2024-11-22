@@ -113,6 +113,13 @@ const JSON5 = require('json5')
 ```js
 import JSON5 from 'json5'
 ```
+#### PHP
+```bash
+composer require colinodell/json5
+```
+```php
+$data = json5_decode('{name: 'Bob', age: 44}');
+```
 
 ### Browsers
 #### UMD
